@@ -1,0 +1,34 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.character-list {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.character-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.character-list li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.character-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.character-list a:hover {
+    color: #555;
+}
